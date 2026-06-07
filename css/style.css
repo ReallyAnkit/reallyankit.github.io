@@ -1,0 +1,19 @@
+html,body{
+	height: 100%;
+    scrollbar-width: none;
+}
+body {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: #181818;
+    color: #e4e4ef;
+}
+
+#main-box
+{
+    display: table-cell;
+    font-family: "Lora", sans-serif;
+    vertical-align: middle;
+}
