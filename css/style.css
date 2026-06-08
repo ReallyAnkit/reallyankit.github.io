@@ -1,19 +1,31 @@
 html,body{
+    margin: 0;
 	height: 100%;
     scrollbar-width: none;
 }
 body {
-    display: table;
+    display: flex;
     height: 100%;
     width: 100%;
-    text-align: center;
-    background: #181818;
-    color: #e4e4ef;
+    justify-content: center;
+    align-items: center;
+    background: #10002b;
+    /* GRID */
+    background-image: linear-gradient(rgba(157, 78, 221, .1) 1px, transparent 1px), linear-gradient(90deg, rgba(157, 78, 221, .1) 1px , transparent 1px);
+    background-size: 6em 6em;
+    color: #f0a9ff;
 }
 
 #main-box
 {
-    display: table-cell;
     font-family: "Lora", sans-serif;
-    vertical-align: middle;
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+#gh-image 
+{
+    display: table-row;
+    height: 2em;
+    width: 2em;
 }
